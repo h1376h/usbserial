@@ -1,0 +1,21 @@
+version: 2
+enable-beta-ecosystems: true
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    reviewers:
+      - "h1376h"
+  - package-ecosystem: "pub"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    reviewers:
+      - "h1376h"
+  - package-ecosystem: gradle
+    directory: "/android"
+    schedule:
+      interval: "weekly"
+    reviewers:
+      - "h1376h"
